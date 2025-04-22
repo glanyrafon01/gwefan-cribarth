@@ -58,6 +58,9 @@ This document explains how to create, edit, preview, and publish content for the
    - Deploy output (`public/`) to `gh-pages` branch
    - Serve the site at: https://gwefan.cribarth.cymru
 
+
+3. This is automated at ./publish
+
 ---
 
 ## 🌐 Custom Domain
