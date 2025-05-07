@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Music Assistant on Gwefan Cribarth</title><link>https://gwefan.cribarth.cymru/tags/music-assistant/</link><description>Recent content in Music Assistant on Gwefan Cribarth</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://gwefan.cribarth.cymru/tags/music-assistant/index.xml" rel="self" type="application/rss+xml"/><item><title>Cribarth Music Player</title><link>https://gwefan.cribarth.cymru/projects/cribarth-music-player/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/projects/cribarth-music-player/</guid><description>&lt;p>Cribarth Music Player is a small desktop application that allows Music Assistant
+in Home Assistant to target the local device as a persistent playback endpoint,
+independent of the browser. It&amp;rsquo;s designed for simplicity, stability, and
+integration with system launchers.&lt;/p>
+&lt;h2 id="-features">⚙️ Features&lt;/h2>
+&lt;ul>
+&lt;li>Electron-based player wrapping Music Assistant&amp;rsquo;s &amp;ldquo;This Device&amp;rdquo; feature&lt;/li>
+&lt;li>Custom desktop launcher and icon&lt;/li>
+&lt;li>Distributed as a &lt;code>.deb&lt;/code> package for Linux systems&lt;/li>
+&lt;li>Manual install and update process for simplicity&lt;/li>
+&lt;/ul>
+&lt;h2 id="-how-it-was-built">🏗️ How It Was Built&lt;/h2>
+&lt;ul>
+&lt;li>Developed in &lt;strong>Visual Studio Code&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ChatGPT&lt;/strong> (GPT-4) provided primary development guidance, including packaging
+strategy, icon integration, and debugging support&lt;/li>
+&lt;li>&lt;strong>GitHub Copilot&lt;/strong> was used to accelerate syntax-level editing&lt;/li>
+&lt;li>Versioned, built, and released via &lt;strong>GitHub Actions&lt;/strong> and tagged GitHub
+releases&lt;/li>
+&lt;/ul>
+&lt;h2 id="-applications">🌐 Applications&lt;/h2>
+&lt;ul>
+&lt;li>Local playback for Music Assistant without needing an open browser&lt;/li>
+&lt;li>Persistent multi-room audio integration&lt;/li>
+&lt;li>Lightweight music player in environments like kiosks or lightweight desktops&lt;/li>
+&lt;/ul>
+&lt;h2 id="-source-code">🔗 Source Code&lt;/h2>
+&lt;p>View the full repository on GitHub:&lt;br>
+&lt;a href="https://github.com/glanyrafon01/cribarth-music-player">github.com/glanyrafon01/cribarth-music-player&lt;/a>&lt;/p></description></item></channel></rss>
