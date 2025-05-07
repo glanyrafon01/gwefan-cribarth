@@ -1,6 +1,7 @@
 # Hugo Publishing Workflow – Gwefan Cribarth
 
-This document explains how to create, edit, preview, and publish content for the Hugo-based static website hosted at https://gwefan.cribarth.cymru.
+This document explains how to create, edit, preview, and publish content for the
+Hugo-based static website hosted at https://gwefan.cribarth.cymru.
 
 ---
 
@@ -18,19 +19,22 @@ This document explains how to create, edit, preview, and publish content for the
 ## ✍️ Writing Content
 
 1. Open the project in VS Code:
+
    ```bash
    code ~/Projects/gwefan-cribarth
    ```
 
 2. Create a new post:
+
    ```bash
    hugo new posts/my-post.md
    ```
 
 3. Edit the file in `content/posts/` and ensure this front matter:
+
    ```yaml
    ---
-   title: "My Post"
+   title: 'My Post'
    date: YYYY-MM-DD
    draft: false
    ---
@@ -47,6 +51,7 @@ This document explains how to create, edit, preview, and publish content for the
 ## 🚀 Publishing Workflow
 
 1. Ensure content is saved and committed:
+
    ```bash
    git add .
    git commit -m "Update content"
@@ -54,10 +59,10 @@ This document explains how to create, edit, preview, and publish content for the
    ```
 
 2. GitHub Actions will:
+
    - Build the site with Hugo
    - Deploy output (`public/`) to `gh-pages` branch
    - Serve the site at: https://gwefan.cribarth.cymru
-
 
 3. This is automated at ./publish
 
