@@ -6,7 +6,8 @@ integration with system launchers.&lt;/p>
 &lt;ul>
 &lt;li>Electron-based player wrapping Music Assistant&amp;rsquo;s &amp;ldquo;This Device&amp;rdquo; feature&lt;/li>
 &lt;li>Custom desktop launcher and icon&lt;/li>
-&lt;li>Distributed as a &lt;code>.deb&lt;/code> package for Linux systems&lt;/li>
+&lt;li>Distributed as a &lt;code>.deb&lt;/code> package for Linux systems and a &lt;code>.exe&lt;/code> for Windows
+devices&lt;/li>
 &lt;li>Manual install and update process for simplicity&lt;/li>
 &lt;/ul>
 &lt;h2 id="-how-it-was-built">🏗️ How It Was Built&lt;/h2>
