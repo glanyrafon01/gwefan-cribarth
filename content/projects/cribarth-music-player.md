@@ -15,7 +15,8 @@ integration with system launchers.
 
 - Electron-based player wrapping Music Assistant's "This Device" feature
 - Custom desktop launcher and icon
-- Distributed as a `.deb` package for Linux systems
+- Distributed as a `.deb` package for Linux systems and a `.exe` for Windows
+  devices
 - Manual install and update process for simplicity
 
 ## 🏗️ How It Was Built
