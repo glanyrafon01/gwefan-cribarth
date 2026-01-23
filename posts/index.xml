@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Gwefan Cribarth</title><link>https://gwefan.cribarth.cymru/posts/</link><description>Recent content in Posts on Gwefan Cribarth</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://gwefan.cribarth.cymru/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Post</title><link>https://gwefan.cribarth.cymru/posts/trdt/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/posts/trdt/</guid><description>&lt;p>This is a test post.&lt;/p></description></item><item><title>Testing EN Post</title><link>https://gwefan.cribarth.cymru/posts/hugo-intro/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/posts/hugo-intro/</guid><description>&lt;h2 id="this-is-just-a-test-but-lets-see-if-it-works">This is just a test but let&amp;rsquo;s see if it works&lt;/h2></description></item><item><title>My Article</title><link>https://gwefan.cribarth.cymru/posts/my-article/</link><pubDate>Tue, 22 Apr 2025 09:37:50 +0100</pubDate><guid>https://gwefan.cribarth.cymru/posts/my-article/</guid><description>&lt;p>Dyma arbrawf cyntaf ar y postio&lt;/p></description></item><item><title>Croeso/Welcome</title><link>https://gwefan.cribarth.cymru/posts/welcome/</link><pubDate>Tue, 22 Apr 2025 08:28:01 +0100</pubDate><guid>https://gwefan.cribarth.cymru/posts/welcome/</guid><description>&lt;p>Welcome to the new Gwefan Cribarth Hugo site. This is a fresh start!&lt;/p></description></item><item><title/><link>https://gwefan.cribarth.cymru/posts/life-as-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/posts/life-as-code/</guid><description>&lt;h1 id="life-as-code">Life as Code&lt;/h1>
-&lt;p>This repository is a structured model for managing all aspects of life &amp;ldquo;as code&amp;rdquo;—applying modern development and infrastructure practices to personal, professional, and civic domains. It provides a unified system for automation, documentation, task management, and strategic review.&lt;/p>
-&lt;h2 id="-goals">🎯 Goals&lt;/h2>
-&lt;ol>
-&lt;li>&lt;strong>Boost productivity&lt;/strong> through digital workflows and streamlined task management.&lt;/li>
-&lt;li>&lt;strong>Enhance health and wellbeing&lt;/strong> with tracking, planning, and automation.&lt;/li>
-&lt;li>&lt;strong>Optimise digital service spend&lt;/strong> via consolidation, self-hosting, and audits.&lt;/li>
-&lt;li>&lt;strong>Learn modern coding and deployment techniques&lt;/strong> (Git, scripts, IaC, static sites).&lt;/li>
-&lt;li>&lt;strong>Enable reuse&lt;/strong> in consultancy, advocacy, and education.&lt;/li>
-&lt;/ol>
-&lt;h2 id="-repository-structure">📁 Repository Structure&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>life-as-code/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── README.md &lt;span style="color:#75715e"># This document&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── personal/ &lt;span style="color:#75715e"># Personal programmes and projects&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── home/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── entertainment/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── money/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── health_fitness/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── gaming/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── activism/ &lt;span style="color:#75715e"># Community and political work&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── plaid_cymru/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── town_council/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── miners_welfare/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── work/ &lt;span style="color:#75715e"># Professional projects&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── cribarth_consulting/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── selling_items/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── infra/ &lt;span style="color:#75715e"># Devices, networks, and home server&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── devices/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── network/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── server/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── scripts/ &lt;span style="color:#75715e"># Automation, CLI tools, review routines&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── automation/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── review/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>├── docs/ &lt;span style="color:#75715e"># Journal, reviews, planning materials&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── journals/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── reviews/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>│ ├── planning/
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="-key-technologies">🛠 Key Technologies&lt;/h2>
-&lt;ul>
-&lt;li>Markdown for documentation&lt;/li>
-&lt;li>Bash &amp;amp; Python for scripting&lt;/li>
-&lt;li>GitHub for version control and GitOps&lt;/li>
-&lt;li>Docker &amp;amp; Ansible for deployment&lt;/li>
-&lt;li>Hugo for static site generation&lt;/li>
-&lt;li>APIs and CLI tools for integration&lt;/li>
-&lt;/ul>
-&lt;h2 id="-getting-started">🚀 Getting Started&lt;/h2>
-&lt;ol>
-&lt;li>Clone the repo&lt;/li>
-&lt;li>Review &lt;code>/scripts/automation/&lt;/code> and &lt;code>/scripts/review/&lt;/code> for useful tools&lt;/li>
-&lt;li>Browse &lt;code>/personal/&lt;/code>, &lt;code>/activism/&lt;/code>, &lt;code>/work/&lt;/code> to see project-specific logs and plans&lt;/li>
-&lt;li>Add your own life components using the same modular structure&lt;/li>
-&lt;/ol>
-&lt;hr>
-&lt;p>This repo is a living system. Contributions welcome for templates, scripts, and methods.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Gwefan Cribarth</title><link>https://gwefan.cribarth.cymru/posts/</link><description>Recent content in Posts on Gwefan Cribarth</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://gwefan.cribarth.cymru/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Post</title><link>https://gwefan.cribarth.cymru/posts/trdt/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/posts/trdt/</guid><description>&lt;p&gt;This is a test post.&lt;/p&gt;</description></item><item><title>Testing EN Post</title><link>https://gwefan.cribarth.cymru/posts/hugo-intro/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/posts/hugo-intro/</guid><description>&lt;h2 id="this-is-just-a-test-but-lets-see-if-it-works"&gt;This is just a test but let&amp;rsquo;s see if it works&lt;/h2&gt;</description></item><item><title>My Article</title><link>https://gwefan.cribarth.cymru/posts/my-article/</link><pubDate>Tue, 22 Apr 2025 09:37:50 +0100</pubDate><guid>https://gwefan.cribarth.cymru/posts/my-article/</guid><description>&lt;p&gt;Dyma arbrawf cyntaf ar y postio&lt;/p&gt;</description></item><item><title>Croeso/Welcome</title><link>https://gwefan.cribarth.cymru/posts/welcome/</link><pubDate>Tue, 22 Apr 2025 08:28:01 +0100</pubDate><guid>https://gwefan.cribarth.cymru/posts/welcome/</guid><description>&lt;p&gt;Welcome to the new Gwefan Cribarth Hugo site. This is a fresh start!&lt;/p&gt;</description></item><item><title/><link>https://gwefan.cribarth.cymru/posts/life-as-code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/posts/life-as-code/</guid><description>&lt;h1 id="life-as-code"&gt;Life as Code&lt;/h1&gt;
+&lt;p&gt;This repository is a structured model for managing all aspects of life &amp;ldquo;as code&amp;rdquo;—applying modern development and infrastructure practices to personal, professional, and civic domains. It provides a unified system for automation, documentation, task management, and strategic review.&lt;/p&gt;
+&lt;h2 id="-goals"&gt;🎯 Goals&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Boost productivity&lt;/strong&gt; through digital workflows and streamlined task management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhance health and wellbeing&lt;/strong&gt; with tracking, planning, and automation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimise digital service spend&lt;/strong&gt; via consolidation, self-hosting, and audits.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learn modern coding and deployment techniques&lt;/strong&gt; (Git, scripts, IaC, static sites).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enable reuse&lt;/strong&gt; in consultancy, advocacy, and education.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="-repository-structure"&gt;📁 Repository Structure&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;life-as-code/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── README.md &lt;span style="color:#75715e"&gt;# This document&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── personal/ &lt;span style="color:#75715e"&gt;# Personal programmes and projects&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── home/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── entertainment/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── money/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── health_fitness/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── gaming/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── activism/ &lt;span style="color:#75715e"&gt;# Community and political work&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── plaid_cymru/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── town_council/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── miners_welfare/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── work/ &lt;span style="color:#75715e"&gt;# Professional projects&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── cribarth_consulting/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── selling_items/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── infra/ &lt;span style="color:#75715e"&gt;# Devices, networks, and home server&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── devices/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── network/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── server/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── scripts/ &lt;span style="color:#75715e"&gt;# Automation, CLI tools, review routines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── automation/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── review/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;├── docs/ &lt;span style="color:#75715e"&gt;# Journal, reviews, planning materials&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── journals/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── reviews/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;│ ├── planning/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="-key-technologies"&gt;🛠 Key Technologies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown for documentation&lt;/li&gt;
+&lt;li&gt;Bash &amp;amp; Python for scripting&lt;/li&gt;
+&lt;li&gt;GitHub for version control and GitOps&lt;/li&gt;
+&lt;li&gt;Docker &amp;amp; Ansible for deployment&lt;/li&gt;
+&lt;li&gt;Hugo for static site generation&lt;/li&gt;
+&lt;li&gt;APIs and CLI tools for integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-getting-started"&gt;🚀 Getting Started&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone the repo&lt;/li&gt;
+&lt;li&gt;Review &lt;code&gt;/scripts/automation/&lt;/code&gt; and &lt;code&gt;/scripts/review/&lt;/code&gt; for useful tools&lt;/li&gt;
+&lt;li&gt;Browse &lt;code&gt;/personal/&lt;/code&gt;, &lt;code&gt;/activism/&lt;/code&gt;, &lt;code&gt;/work/&lt;/code&gt; to see project-specific logs and plans&lt;/li&gt;
+&lt;li&gt;Add your own life components using the same modular structure&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;This repo is a living system. Contributions welcome for templates, scripts, and methods.&lt;/p&gt;</description></item></channel></rss>
