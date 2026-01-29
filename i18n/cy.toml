@@ -50,3 +50,6 @@ other = "{{ .Name }} tudalen"
 
 [translations]
 other = "Cyfieithiadau"
+
+[cribarthOnlineAttribution]
+other = "Mae Gwefan Cribarth yn rhan o <a class=\"link white-70 hover-white\" href=\"https://cribarth.cymru\">Cribarth Online</a>."

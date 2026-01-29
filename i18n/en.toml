@@ -1,2 +1,5 @@
 [translations]
 other = "Translations"
+
+[cribarthOnlineAttribution]
+other = "Gwefan Cribarth is part of <a class=\"link white-70 hover-white\" href=\"https://cribarth.cymru\">Cribarth Online</a>."
