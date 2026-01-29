@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on Gwefan Cribarth</title><link>https://gwefan.cribarth.cymru/cy/tags/github/</link><description>Recent content in GitHub on Gwefan Cribarth</description><generator>Hugo</generator><language>cy-gb</language><lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://gwefan.cribarth.cymru/cy/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Cribarth Music Player</title><link>https://gwefan.cribarth.cymru/cy/projects/cribarth-music-player/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://gwefan.cribarth.cymru/cy/projects/cribarth-music-player/</guid><description>&lt;p&gt;Mae Cribarth Music Player yn rhaglen bwrdd gwaith fach sy&amp;rsquo;n galluogi Music Assistant
+yn Home Assistant i dargedu&amp;rsquo;r ddyfais leol fel pwynt chwarae parhaus, yn
+annibynnol o&amp;rsquo;r porwr. Mae wedi&amp;rsquo;i chynllunio ar gyfer symlrwydd, sefydlogrwydd,
+ac integreiddio gyda lansiwr y system.&lt;/p&gt;
+&lt;h2 id="nodweddion"&gt;Nodweddion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chwaraewr Electron sy&amp;rsquo;n lapio nodwedd &amp;ldquo;This Device&amp;rdquo; Music Assistant&lt;/li&gt;
+&lt;li&gt;Lansiwr bwrdd gwaith a eicon personol&lt;/li&gt;
+&lt;li&gt;Wedi&amp;rsquo;i ddosbarthu fel pecyn &lt;code&gt;.deb&lt;/code&gt; ar gyfer Linux a &lt;code&gt;.exe&lt;/code&gt; ar gyfer Windows
+dyfeisiau&lt;/li&gt;
+&lt;li&gt;Gosod a diweddaru a llaw er symlrwydd&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="sut-cafodd-ei-adeiladu"&gt;Sut cafodd ei adeiladu&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Datblygwyd yn &lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Darparodd &lt;strong&gt;ChatGPT&lt;/strong&gt; (GPT-4) y prif ganllaw datblygu, gan gynnwys strategaeth
+pecynnu, integreiddio eicon, a chymorth dadfygio&lt;/li&gt;
+&lt;li&gt;Defnyddiwyd &lt;strong&gt;GitHub Copilot&lt;/strong&gt; i gyflymu golygu ar lefel cystrawen&lt;/li&gt;
+&lt;li&gt;Fersiynwyd, adeiladwyd, a rhyddhawyd trwy &lt;strong&gt;GitHub Actions&lt;/strong&gt; a rhyddiadau
+GitHub wedi&amp;rsquo;u tagio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="cymwysiadau"&gt;Cymwysiadau&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chwarae lleol ar gyfer Music Assistant heb angen porwr ar agor&lt;/li&gt;
+&lt;li&gt;Integreiddio sain aml-ystafell parhaus&lt;/li&gt;
+&lt;li&gt;Chwaraewr cerddoriaeth ysgafn mewn amgylcheddau fel ciosgiau neu ddesgben
+ysgafn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="cod-ffynhonnell"&gt;Cod ffynhonnell&lt;/h2&gt;
+&lt;p&gt;Gweler y storfa lawn ar GitHub:&lt;br&gt;
+&lt;a href="https://github.com/glanyrafon01/cribarth-music-player"&gt;github.com/glanyrafon01/cribarth-music-player&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
