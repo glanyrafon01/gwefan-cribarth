@@ -1,9 +1,39 @@
 baseURL = "https://gwefan.cribarth.cymru/"
 title = "Gwefan Cribarth"
 theme = "ananke"
-languageCode = "en-gb"
-[[menu.main]]
-name = "Projects"
-url = "/projects/"
-weight = 20
+languageCode = "cy-gb"
+defaultContentLanguage = "cy"
+defaultContentLanguageInSubdir = true
 
+[languages]
+  [languages.cy]
+  languageName = "Cymraeg"
+  languageCode = "cy-gb"
+  contentDir = "content/cy"
+  title = "Gwefan Cribarth"
+  weight = 1
+
+  [languages.en]
+  languageName = "English"
+  languageCode = "en-gb"
+  contentDir = "content/en"
+  title = "Gwefan Cribarth"
+  weight = 2
+
+  [languages.cy.menu]
+    [[languages.cy.menu.main]]
+    name = "Prosiectau"
+    pageRef = "projects"
+    weight = 20
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+    name = "Projects"
+    pageRef = "projects"
+    weight = 20
+
+[params]
+mainSections = ["posts"]
+
+[params.ananke]
+show_recent_posts = true

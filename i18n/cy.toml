@@ -1,0 +1,52 @@
+[more]
+other = "Rhagor"
+
+[allTitle]
+other = "Pob {{ .Title }}"
+
+[recentTitle]
+other = "Diweddar {{ .Title }}"
+
+[readMore]
+other = "darllen mwy"
+
+[by]
+other = "Gan"
+
+[whatsInThis]
+other = "Beth sydd yn y {{ .Type }}"
+
+[related]
+other = "Perthnasol"
+
+[yourName]
+other = "Eich Enw"
+
+[emailAddress]
+other = "Cyfeiriad E-bost"
+
+[message]
+other = "Neges"
+
+[emailRequiredNote]
+other = "Mae angen cyfeiriad e-bost."
+
+[send]
+other = "Anfon"
+
+[taxonomyPageList]
+other = "Isod mae tudalennau sy'n defnyddio'r term tacsonomeg \"{{ .Title }}\""
+
+[readingTime]
+one = "Darllen am un munud"
+other = "Darllen am {{ .Count }} munud"
+
+[wordCount]
+one = "Un gair"
+other = "{{ .Count }} gair"
+
+[pageTitle]
+other = "{{ .Name }} tudalen"
+
+[translations]
+other = "Cyfieithiadau"

@@ -1,6 +1,7 @@
 +++
 title = "Projects"
 description = "Personal and consultancy projects built around digital self-determination, local infrastructure and free tools - while working in the open!"
+translationKey = "projects"
 +++
 
 ## Featured Projects

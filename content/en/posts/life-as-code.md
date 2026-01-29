@@ -1,3 +1,9 @@
++++
+title = "Life as Code"
+date = 2025-04-22T09:00:00+01:00
+draft = false
++++
+
 # Life as Code
 
 This repository is a structured model for managing all aspects of life "as code"—applying modern development and infrastructure practices to personal, professional, and civic domains. It provides a unified system for automation, documentation, task management, and strategic review.
